@@ -38,6 +38,3 @@ Compile:
 
 Run:
 `java -cp ..\..\out hospital.Main`
-
-## Author
-Java OOP Case Study Submission
