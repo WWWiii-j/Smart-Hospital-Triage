@@ -1,0 +1,17 @@
+package hospital;
+
+public class Doctor extends Person {
+
+    private String department;
+
+    public Doctor(int id, String name, String department) {
+        super(id, name);
+        this.department = department;
+    }
+
+    @Override
+    public void displayRole() {
+        System.out.println("Doctor: " + getName()
+                + " | Department: " + department);
+    }
+}
